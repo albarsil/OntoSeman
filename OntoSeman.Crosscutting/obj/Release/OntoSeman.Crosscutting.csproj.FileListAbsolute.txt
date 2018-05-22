@@ -1,0 +1,16 @@
+C:\Users\asilva\Google Drive\Documentos\Academico\Mestrado\IA\OntoSeman\OntoSeman.Crosscutting\bin\Release\OntoSeman.Crosscutting.dll
+C:\Users\asilva\Google Drive\Documentos\Academico\Mestrado\IA\OntoSeman\OntoSeman.Crosscutting\bin\Release\OntoSeman.Crosscutting.pdb
+C:\Users\asilva\Google Drive\Documentos\Academico\Mestrado\IA\OntoSeman\OntoSeman.Crosscutting\bin\Release\dotNetRDF.dll
+C:\Users\asilva\Google Drive\Documentos\Academico\Mestrado\IA\OntoSeman\OntoSeman.Crosscutting\bin\Release\HtmlAgilityPack.dll
+C:\Users\asilva\Google Drive\Documentos\Academico\Mestrado\IA\OntoSeman\OntoSeman.Crosscutting\bin\Release\Newtonsoft.Json.dll
+C:\Users\asilva\Google Drive\Documentos\Academico\Mestrado\IA\OntoSeman\OntoSeman.Crosscutting\bin\Release\VDS.Common.dll
+C:\Users\asilva\Google Drive\Documentos\Academico\Mestrado\IA\OntoSeman\OntoSeman.Crosscutting\bin\Release\dotNetRDF.pdb
+C:\Users\asilva\Google Drive\Documentos\Academico\Mestrado\IA\OntoSeman\OntoSeman.Crosscutting\bin\Release\dotNetRDF.xml
+C:\Users\asilva\Google Drive\Documentos\Academico\Mestrado\IA\OntoSeman\OntoSeman.Crosscutting\bin\Release\HtmlAgilityPack.pdb
+C:\Users\asilva\Google Drive\Documentos\Academico\Mestrado\IA\OntoSeman\OntoSeman.Crosscutting\bin\Release\HtmlAgilityPack.xml
+C:\Users\asilva\Google Drive\Documentos\Academico\Mestrado\IA\OntoSeman\OntoSeman.Crosscutting\bin\Release\Newtonsoft.Json.xml
+C:\Users\asilva\Google Drive\Documentos\Academico\Mestrado\IA\OntoSeman\OntoSeman.Crosscutting\bin\Release\VDS.Common.pdb
+C:\Users\asilva\Google Drive\Documentos\Academico\Mestrado\IA\OntoSeman\OntoSeman.Crosscutting\bin\Release\VDS.Common.xml
+C:\Users\asilva\Google Drive\Documentos\Academico\Mestrado\IA\OntoSeman\OntoSeman.Crosscutting\obj\Release\OntoSeman.Crosscutting.csprojResolveAssemblyReference.cache
+C:\Users\asilva\Google Drive\Documentos\Academico\Mestrado\IA\OntoSeman\OntoSeman.Crosscutting\obj\Release\OntoSeman.Crosscutting.dll
+C:\Users\asilva\Google Drive\Documentos\Academico\Mestrado\IA\OntoSeman\OntoSeman.Crosscutting\obj\Release\OntoSeman.Crosscutting.pdb

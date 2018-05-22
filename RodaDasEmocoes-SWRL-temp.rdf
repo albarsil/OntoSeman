@@ -1,0 +1,1759 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#"
+     xml:base="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Adjetivo -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Adjetivo">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#ClasseGramatical"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Alegria -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Alegria">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Satisfeito"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Animado -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Animado">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Quadrante"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Aversao -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Aversao">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Insatisfeito"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#ClasseGramatical -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#ClasseGramatical">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Culpa -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Culpa">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Desanimado"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Desanimado -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Desanimado">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Quadrante"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Desprezo -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Desprezo">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Insatisfeito"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Entusiasmo -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Entusiasmo">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Satisfeito"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Esperanca -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Esperanca">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Animado"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Insatisfeito -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Insatisfeito">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Quadrante"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Interesse -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Interesse">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Animado"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Inveja -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Inveja">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Insatisfeito"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Irritacao -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Irritacao">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Insatisfeito"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Medo -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Medo">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Desanimado"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Negativo -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Negativo">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Polaridade"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Orgulho -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Orgulho">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Satisfeito"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Polaridade -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Polaridade">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Positivo -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Positivo">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Polaridade"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Quadrante -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Quadrante">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Satisfacao -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Satisfacao">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Satisfeito"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Satisfeito -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Satisfeito">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Quadrante"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Serenidade -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Serenidade">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Animado"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Surpresa -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Surpresa">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Animado"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Tristeza -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Tristeza">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Desanimado"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Verbo -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Verbo">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#ClasseGramatical"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Vergonha -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Vergonha">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Desanimado"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#alto -->
+
+    <owl:Thing rdf:about="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#alto">
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Adjetivo"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#ClasseGramatical"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#ansioso -->
+
+    <owl:Thing rdf:about="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#ansioso">
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Adjetivo"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#ClasseGramatical"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#apreensivo -->
+
+    <owl:Thing rdf:about="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#apreensivo">
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Adjetivo"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#ClasseGramatical"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Desanimado"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Medo"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Negativo"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Polaridade"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Quadrante"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#assustador -->
+
+    <owl:Thing rdf:about="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#assustador">
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Desanimado"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Medo"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Negativo"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Polaridade"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Quadrante"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#ausente -->
+
+    <owl:Thing rdf:about="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#ausente">
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Adjetivo"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#ClasseGramatical"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Desprezo"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Insatisfeito"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Negativo"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Polaridade"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Quadrante"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#capaz -->
+
+    <owl:Thing rdf:about="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#capaz">
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Adjetivo"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#ClasseGramatical"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#ciente -->
+
+    <owl:Thing rdf:about="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#ciente">
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Adjetivo"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#ClasseGramatical"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#claro -->
+
+    <owl:Thing rdf:about="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#claro">
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Adjetivo"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#ClasseGramatical"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Polaridade"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Positivo"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Quadrante"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Satisfacao"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Satisfeito"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#competente -->
+
+    <owl:Thing rdf:about="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#competente">
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Adjetivo"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#ClasseGramatical"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Polaridade"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Positivo"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Quadrante"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Satisfacao"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Satisfeito"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#complexo -->
+
+    <owl:Thing rdf:about="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#complexo">
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Adjetivo"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#ClasseGramatical"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#comunicativo -->
+
+    <owl:Thing rdf:about="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#comunicativo">
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Adjetivo"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#ClasseGramatical"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Polaridade"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Positivo"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Quadrante"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Satisfacao"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Satisfeito"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#confiante -->
+
+    <owl:Thing rdf:about="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#confiante">
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Adjetivo"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Animado"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#ClasseGramatical"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Polaridade"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Positivo"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Quadrante"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Serenidade"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#confortavel -->
+
+    <owl:Thing rdf:about="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#confortavel">
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Adjetivo"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Animado"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#ClasseGramatical"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Polaridade"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Positivo"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Quadrante"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Serenidade"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#confuso -->
+
+    <owl:Thing rdf:about="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#confuso">
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Adjetivo"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#ClasseGramatical"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Desanimado"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Medo"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Negativo"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Polaridade"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Quadrante"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#constante -->
+
+    <owl:Thing rdf:about="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#constante">
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Adjetivo"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#ClasseGramatical"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Polaridade"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Positivo"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Quadrante"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Satisfacao"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Satisfeito"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#cooperativo -->
+
+    <owl:Thing rdf:about="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#cooperativo">
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Adjetivo"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#ClasseGramatical"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Polaridade"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Positivo"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Quadrante"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Satisfacao"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Satisfeito"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#cotidiano -->
+
+    <owl:Thing rdf:about="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#cotidiano">
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Adjetivo"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#ClasseGramatical"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#criativo -->
+
+    <owl:Thing rdf:about="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#criativo">
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Adjetivo"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#ClasseGramatical"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Polaridade"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Positivo"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Quadrante"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Satisfacao"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Satisfeito"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#critico -->
+
+    <owl:Thing rdf:about="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#critico">
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Adjetivo"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#ClasseGramatical"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#curto -->
+
+    <owl:Thing rdf:about="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#curto">
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Adjetivo"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#ClasseGramatical"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Insatisfeito"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Negativo"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Polaridade"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Quadrante"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#desafiador -->
+
+    <owl:Thing rdf:about="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#desafiador">
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Adjetivo"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#ClasseGramatical"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Entusiasmo"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Polaridade"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Positivo"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Quadrante"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Satisfeito"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#didatico -->
+
+    <owl:Thing rdf:about="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#didatico">
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Adjetivo"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#ClasseGramatical"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#diferente -->
+
+    <owl:Thing rdf:about="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#diferente">
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Adjetivo"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#ClasseGramatical"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#dificil -->
+
+    <owl:Thing rdf:about="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#dificil">
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Adjetivo"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Aversao"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#ClasseGramatical"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Insatisfeito"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Negativo"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Polaridade"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Quadrante"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#digital -->
+
+    <owl:Thing rdf:about="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#digital">
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Adjetivo"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#ClasseGramatical"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#disciplinado -->
+
+    <owl:Thing rdf:about="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#disciplinado">
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Adjetivo"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Animado"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#ClasseGramatical"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Interesse"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Polaridade"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Positivo"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Quadrante"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#diverso -->
+
+    <owl:Thing rdf:about="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#diverso">
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Adjetivo"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#ClasseGramatical"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#docente -->
+
+    <owl:Thing rdf:about="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#docente">
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Adjetivo"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#ClasseGramatical"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#eficiente -->
+
+    <owl:Thing rdf:about="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#eficiente">
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Adjetivo"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#ClasseGramatical"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Polaridade"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Positivo"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Quadrante"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Satisfacao"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Satisfeito"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#empolgado -->
+
+    <owl:Thing rdf:about="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#empolgado">
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Adjetivo"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#ClasseGramatical"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Entusiasmo"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Polaridade"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Positivo"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Quadrante"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Satisfeito"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#enrequicedor -->
+
+    <owl:Thing rdf:about="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#enrequicedor">
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Adjetivo"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#ClasseGramatical"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Polaridade"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Positivo"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Quadrante"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Satisfacao"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Satisfeito"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#esclarecedor -->
+
+    <owl:Thing rdf:about="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#esclarecedor">
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Adjetivo"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Animado"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#ClasseGramatical"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Interesse"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Polaridade"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Positivo"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Quadrante"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#essencial -->
+
+    <owl:Thing rdf:about="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#essencial">
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Adjetivo"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#ClasseGramatical"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Polaridade"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Positivo"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Quadrante"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Satisfacao"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Satisfeito"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#estranho -->
+
+    <owl:Thing rdf:about="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#estranho">
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Adjetivo"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Aversao"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#ClasseGramatical"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Insatisfeito"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Negativo"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Polaridade"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Quadrante"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#evoluido -->
+
+    <owl:Thing rdf:about="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#evoluido">
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Adjetivo"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#ClasseGramatical"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Polaridade"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Positivo"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Quadrante"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Satisfacao"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Satisfeito"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#excelente -->
+
+    <owl:Thing rdf:about="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#excelente">
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Adjetivo"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#ClasseGramatical"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Entusiasmo"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Polaridade"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Positivo"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Quadrante"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Satisfeito"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#explicativo -->
+
+    <owl:Thing rdf:about="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#explicativo">
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Adjetivo"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#ClasseGramatical"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Polaridade"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Positivo"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Quadrante"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Satisfacao"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Satisfeito"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#facil -->
+
+    <owl:Thing rdf:about="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#facil">
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Adjetivo"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#ClasseGramatical"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Polaridade"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Positivo"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Quadrante"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Satisfacao"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Satisfeito"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#fantastico -->
+
+    <owl:Thing rdf:about="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#fantastico">
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Adjetivo"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#ClasseGramatical"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Entusiasmo"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Polaridade"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Positivo"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Quadrante"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Satisfeito"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#feliz -->
+
+    <owl:Thing rdf:about="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#feliz">
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Adjetivo"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#ClasseGramatical"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Entusiasmo"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Polaridade"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Positivo"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Quadrante"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Satisfeito"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#forte -->
+
+    <owl:Thing rdf:about="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#forte">
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Adjetivo"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#ClasseGramatical"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Polaridade"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Positivo"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Quadrante"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Satisfacao"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Satisfeito"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#fraco -->
+
+    <owl:Thing rdf:about="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#fraco">
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Adjetivo"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#ClasseGramatical"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Desprezo"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Insatisfeito"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Negativo"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Polaridade"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Quadrante"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#fundamental -->
+
+    <owl:Thing rdf:about="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#fundamental">
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Adjetivo"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#ClasseGramatical"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#futuro -->
+
+    <owl:Thing rdf:about="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#futuro">
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Adjetivo"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#ClasseGramatical"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#geral -->
+
+    <owl:Thing rdf:about="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#geral">
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Adjetivo"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#ClasseGramatical"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#grande -->
+
+    <owl:Thing rdf:about="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#grande">
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Adjetivo"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#ClasseGramatical"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#gratificante -->
+
+    <owl:Thing rdf:about="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#gratificante">
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Adjetivo"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#ClasseGramatical"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Orgulho"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Polaridade"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Positivo"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Quadrante"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Satisfeito"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#importante -->
+
+    <owl:Thing rdf:about="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#importante">
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Adjetivo"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#ClasseGramatical"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Polaridade"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Positivo"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Quadrante"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Satisfacao"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Satisfeito"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#impossivel -->
+
+    <owl:Thing rdf:about="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#impossivel">
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Adjetivo"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#ClasseGramatical"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#inacabados -->
+
+    <owl:Thing rdf:about="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#inacabados">
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Adjetivo"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#ClasseGramatical"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Desanimado"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Negativo"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Polaridade"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Quadrante"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Tristeza"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#inaugural -->
+
+    <owl:Thing rdf:about="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#inaugural">
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Adjetivo"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#ClasseGramatical"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#indicado -->
+
+    <owl:Thing rdf:about="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#indicado">
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Adjetivo"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#ClasseGramatical"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#individual -->
+
+    <owl:Thing rdf:about="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#individual">
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Adjetivo"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#ClasseGramatical"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#inicial -->
+
+    <owl:Thing rdf:about="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#inicial">
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Adjetivo"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#ClasseGramatical"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#inseguro -->
+
+    <owl:Thing rdf:about="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#inseguro">
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Adjetivo"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#ClasseGramatical"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Desanimado"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Medo"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Negativo"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Polaridade"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Quadrante"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#instrutivo -->
+
+    <owl:Thing rdf:about="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#instrutivo">
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Adjetivo"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#ClasseGramatical"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Polaridade"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Positivo"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Quadrante"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Satisfacao"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Satisfeito"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#inteiro -->
+
+    <owl:Thing rdf:about="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#inteiro">
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Adjetivo"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#ClasseGramatical"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#intenso -->
+
+    <owl:Thing rdf:about="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#intenso">
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Adjetivo"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#ClasseGramatical"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Polaridade"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Positivo"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Quadrante"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Satisfacao"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Satisfeito"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#interessante -->
+
+    <owl:Thing rdf:about="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#interessante">
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Adjetivo"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Animado"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#ClasseGramatical"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Interesse"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Polaridade"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Positivo"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Quadrante"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#irrelevante -->
+
+    <owl:Thing rdf:about="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#irrelevante">
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Adjetivo"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#ClasseGramatical"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Desprezo"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Insatisfeito"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Negativo"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Polaridade"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Quadrante"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#jovem -->
+
+    <owl:Thing rdf:about="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#jovem">
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Adjetivo"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#ClasseGramatical"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#legal -->
+
+    <owl:Thing rdf:about="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#legal">
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Adjetivo"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#ClasseGramatical"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Polaridade"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Positivo"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Quadrante"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Satisfacao"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Satisfeito"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#logico -->
+
+    <owl:Thing rdf:about="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#logico">
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Adjetivo"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#ClasseGramatical"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#maior -->
+
+    <owl:Thing rdf:about="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#maior">
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Adjetivo"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#ClasseGramatical"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#marcante -->
+
+    <owl:Thing rdf:about="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#marcante">
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Adjetivo"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#ClasseGramatical"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Polaridade"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Positivo"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Quadrante"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Satisfacao"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Satisfeito"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#massante -->
+
+    <owl:Thing rdf:about="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#massante">
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Adjetivo"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Aversao"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#ClasseGramatical"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Insatisfeito"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Negativo"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Polaridade"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Quadrante"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#meio -->
+
+    <owl:Thing rdf:about="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#meio">
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Adjetivo"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#ClasseGramatical"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#melhor -->
+
+    <owl:Thing rdf:about="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#melhor">
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Adjetivo"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#ClasseGramatical"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Polaridade"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Positivo"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Quadrante"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Satisfacao"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Satisfeito"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#metodico -->
+
+    <owl:Thing rdf:about="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#metodico">
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Adjetivo"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Animado"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#ClasseGramatical"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Interesse"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Polaridade"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Positivo"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Quadrante"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#moderno -->
+
+    <owl:Thing rdf:about="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#moderno">
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Adjetivo"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#ClasseGramatical"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Polaridade"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Positivo"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Quadrante"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Satisfacao"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Satisfeito"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#natural -->
+
+    <owl:Thing rdf:about="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#natural">
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Adjetivo"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#ClasseGramatical"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#necessario -->
+
+    <owl:Thing rdf:about="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#necessario">
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Adjetivo"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#ClasseGramatical"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#novo -->
+
+    <owl:Thing rdf:about="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#novo">
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Adjetivo"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#ClasseGramatical"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#objetivo -->
+
+    <owl:Thing rdf:about="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#objetivo">
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Adjetivo"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#ClasseGramatical"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Polaridade"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Positivo"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Quadrante"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Satisfacao"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Satisfeito"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#obrigatorio -->
+
+    <owl:Thing rdf:about="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#obrigatorio">
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Adjetivo"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#ClasseGramatical"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#oportuno -->
+
+    <owl:Thing rdf:about="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#oportuno">
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Adjetivo"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#ClasseGramatical"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Entusiasmo"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Polaridade"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Positivo"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Quadrante"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Satisfeito"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#orgulhoso -->
+
+    <owl:Thing rdf:about="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#orgulhoso">
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Adjetivo"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#ClasseGramatical"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Orgulho"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Polaridade"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Positivo"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Quadrante"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Satisfeito"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#otimo -->
+
+    <owl:Thing rdf:about="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#otimo">
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Adjetivo"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#ClasseGramatical"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Polaridade"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Positivo"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Quadrante"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Satisfacao"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Satisfeito"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#participativo -->
+
+    <owl:Thing rdf:about="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#participativo">
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Adjetivo"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#ClasseGramatical"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Polaridade"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Positivo"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Quadrante"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Satisfacao"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Satisfeito"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#passado -->
+
+    <owl:Thing rdf:about="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#passado">
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Adjetivo"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#ClasseGramatical"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#pesado -->
+
+    <owl:Thing rdf:about="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#pesado">
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Adjetivo"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Aversao"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#ClasseGramatical"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Insatisfeito"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Negativo"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Polaridade"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Quadrante"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#pessoal -->
+
+    <owl:Thing rdf:about="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#pessoal">
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Adjetivo"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#ClasseGramatical"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#possivel -->
+
+    <owl:Thing rdf:about="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#possivel">
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Adjetivo"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#ClasseGramatical"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Polaridade"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Positivo"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Quadrante"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Satisfacao"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Satisfeito"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#potual -->
+
+    <owl:Thing rdf:about="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#potual">
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Adjetivo"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#ClasseGramatical"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#pratico -->
+
+    <owl:Thing rdf:about="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#pratico">
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Adjetivo"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#ClasseGramatical"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#prazeroso -->
+
+    <owl:Thing rdf:about="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#prazeroso">
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Adjetivo"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#ClasseGramatical"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Entusiasmo"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Polaridade"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Positivo"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Quadrante"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Satisfeito"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#preciso -->
+
+    <owl:Thing rdf:about="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#preciso">
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Adjetivo"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Animado"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#ClasseGramatical"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Interesse"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Polaridade"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Positivo"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Quadrante"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#presencial -->
+
+    <owl:Thing rdf:about="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#presencial">
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Adjetivo"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#ClasseGramatical"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#presente -->
+
+    <owl:Thing rdf:about="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#presente">
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Adjetivo"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#ClasseGramatical"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#primeiro -->
+
+    <owl:Thing rdf:about="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#primeiro">
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Adjetivo"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#ClasseGramatical"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#produtivo -->
+
+    <owl:Thing rdf:about="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#produtivo">
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Adjetivo"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#ClasseGramatical"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Polaridade"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Positivo"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Quadrante"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Satisfacao"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Satisfeito"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#profissional -->
+
+    <owl:Thing rdf:about="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#profissional">
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Adjetivo"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#ClasseGramatical"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#proprio -->
+
+    <owl:Thing rdf:about="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#proprio">
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Adjetivo"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#ClasseGramatical"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#proveitoso -->
+
+    <owl:Thing rdf:about="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#proveitoso">
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Adjetivo"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#ClasseGramatical"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Polaridade"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Positivo"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Quadrante"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Satisfacao"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Satisfeito"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#rapido -->
+
+    <owl:Thing rdf:about="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#rapido">
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Adjetivo"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#ClasseGramatical"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Polaridade"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Positivo"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Quadrante"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Satisfacao"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Satisfeito"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#recente -->
+
+    <owl:Thing rdf:about="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#recente">
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Adjetivo"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#ClasseGramatical"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#receoso -->
+
+    <owl:Thing rdf:about="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#receoso">
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Adjetivo"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#ClasseGramatical"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Desanimado"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Medo"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Negativo"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Polaridade"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Quadrante"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#receptivo -->
+
+    <owl:Thing rdf:about="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#receptivo">
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Adjetivo"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Alegria"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#ClasseGramatical"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Polaridade"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Positivo"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Quadrante"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Satisfeito"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#registrado -->
+
+    <owl:Thing rdf:about="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#registrado">
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Adjetivo"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#ClasseGramatical"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#regrado -->
+
+    <owl:Thing rdf:about="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#regrado">
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Adjetivo"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#ClasseGramatical"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Orgulho"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Polaridade"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Positivo"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Quadrante"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Satisfeito"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#responsavel -->
+
+    <owl:Thing rdf:about="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#responsavel">
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Adjetivo"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#ClasseGramatical"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Polaridade"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Positivo"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Quadrante"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Satisfacao"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Satisfeito"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#rico -->
+
+    <owl:Thing rdf:about="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#rico">
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Adjetivo"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#ClasseGramatical"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Polaridade"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Positivo"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Quadrante"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Satisfacao"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Satisfeito"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#satisfatorio -->
+
+    <owl:Thing rdf:about="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#satisfatorio">
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Adjetivo"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#ClasseGramatical"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Polaridade"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Positivo"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Quadrante"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Satisfacao"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Satisfeito"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#seguro -->
+
+    <owl:Thing rdf:about="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#seguro">
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Adjetivo"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#ClasseGramatical"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Orgulho"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Polaridade"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Positivo"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Quadrante"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Satisfeito"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#simpatico -->
+
+    <owl:Thing rdf:about="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#simpatico">
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Adjetivo"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#ClasseGramatical"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Polaridade"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Positivo"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Quadrante"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Satisfacao"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Satisfeito"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#simples -->
+
+    <owl:Thing rdf:about="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#simples">
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Adjetivo"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Aversao"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#ClasseGramatical"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Insatisfeito"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Negativo"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Polaridade"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Quadrante"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#sincero -->
+
+    <owl:Thing rdf:about="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#sincero">
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Adjetivo"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#ClasseGramatical"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#surpreendente -->
+
+    <owl:Thing rdf:about="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#surpreendente">
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Adjetivo"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#ClasseGramatical"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Entusiasmo"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Polaridade"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Positivo"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Quadrante"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Satisfeito"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#surpreso -->
+
+    <owl:Thing rdf:about="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#surpreso">
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Adjetivo"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#ClasseGramatical"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#tecnologico -->
+
+    <owl:Thing rdf:about="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#tecnologico">
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Adjetivo"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#ClasseGramatical"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#tranquilo -->
+
+    <owl:Thing rdf:about="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#tranquilo">
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Adjetivo"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Animado"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#ClasseGramatical"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Polaridade"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Positivo"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Quadrante"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Serenidade"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#ultimo -->
+
+    <owl:Thing rdf:about="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#ultimo">
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Adjetivo"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#ClasseGramatical"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#unico -->
+
+    <owl:Thing rdf:about="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#unico">
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Adjetivo"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#ClasseGramatical"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#varios -->
+
+    <owl:Thing rdf:about="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#varios">
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Adjetivo"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#ClasseGramatical"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#velhos -->
+
+    <owl:Thing rdf:about="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#velhos">
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Adjetivo"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#ClasseGramatical"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#virtual -->
+
+    <owl:Thing rdf:about="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#virtual">
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Adjetivo"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#ClasseGramatical"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#vitorioso -->
+
+    <owl:Thing rdf:about="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#vitorioso">
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Adjetivo"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#ClasseGramatical"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Orgulho"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Polaridade"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Positivo"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Quadrante"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/francinisb/ontologies/2016/2/rodaemocoes#Satisfeito"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </owl:Thing>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version [Not Released]) http://owlapi.sourceforge.net -->
+
